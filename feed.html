@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed | Hangout Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/feed.css"> 
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Hangout Hub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Feed</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container mt-4">
+        <div class="card p-3 mb-4">
+            <textarea class="form-control" placeholder="Share your thoughts..."></textarea>
+            <button class="btn btn-primary mt-2">Post</button>
+        </div>
+
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">User1</h5>
+                <p class="card-text">Had an amazing day exploring the city! 🌆✨</p>
+                <img src="images/photo.jpg" class="img-fluid" alt="Post Image" height="150" width="200">
+                <div class="mt-2">
+                    <button class="btn btn-outline-primary btn-sm">Like</button>
+                    <button class="btn btn-outline-secondary btn-sm">Comment</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">User2</h5>
+                <p class="card-text">Just finished my project! Feeling so accomplished. 💻🚀</p>
+                <div class="mt-2">
+                    <button class="btn btn-outline-primary btn-sm">Like</button>
+                    <button class="btn btn-outline-secondary btn-sm">Comment</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

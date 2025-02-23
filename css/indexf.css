@@ -1,0 +1,126 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.navbar {
+    background-color: #512DA8; 
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: white !important;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 15px;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFD700 !important;
+}
+
+.navbar-nav .btn-primary {
+    background-color: #FFD700;
+    border: none;
+    color: #512DA8;
+    padding: 6px 15px;
+    border-radius: 6px;
+}
+
+.navbar-nav .btn-primary:hover {
+    background-color: #FFEA00;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; 
+    text-align: center;
+    background: linear-gradient(135deg, #512DA8, #FF4081); 
+    color: white;
+    padding: 20px;
+}
+
+.content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content span {
+    color: #FFD700; 
+}
+
+.content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #FFD700;
+    color: #512DA8;
+    font-size: 18px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #FFEA00;
+    transform: scale(1.05);
+}
+
+
+.footer {
+    background-color: #512DA8;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 16px;
+}
+
+
+.feed-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.post {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.profile-container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #FFD700;
+}
